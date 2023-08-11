@@ -1,3 +1,4 @@
+import { SecondaryButton } from '../index'
 import './GamingLibraryCard.css'
 
 const GamingLibraryCard = (props) => {
@@ -9,9 +10,8 @@ const GamingLibraryCard = (props) => {
             <li><h4>Date added</h4> <span>{props.date_added}</span></li>
             <li><h4>Hours played</h4> <span>{props.hours_played}</span></li>
             <li><h4>Currently</h4> <span>{props.download}</span></li>
-            <div className='main-button'>
-                <a href='/#'>Download</a>
-            </div>
+            <SecondaryButton>Download</SecondaryButton>
+          
         </ul>
     </div>
   )
