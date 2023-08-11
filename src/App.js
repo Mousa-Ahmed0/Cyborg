@@ -6,7 +6,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 */// وبستدعي سطر زاحد 
 import { Container } from './components/index';
-import { Header,Footer ,Hero,MostPopular} from './sections/index';
+import { Header,Footer ,Hero,MostPopular,GamingLib} from './sections/index';
 
 const App =()=>{
     return (
@@ -16,9 +16,10 @@ const App =()=>{
             <Container>
                 <Hero/>
                 <MostPopular/>
+                <GamingLib/>
             </Container> 
             
-            {/* <Footer/> */}
+            <Footer/>
         </>
     )
 }

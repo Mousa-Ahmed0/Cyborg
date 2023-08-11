@@ -5,7 +5,7 @@ import { Card, SectionHeader ,SectionWrapper} from '../../components/index'
 const MostPopular = () => {
  
     const cards=MostPopularData.map(card=>{
-        return <Card key={card.id} image={card.image} title={card.title} rate={card.rate} download={card.download}/>
+        return <Card key={card.id} image={card.image} title={card.title} catrgory={card.catrgory} rate={card.rate} download={card.download}/>
     })
   return (
     <>
