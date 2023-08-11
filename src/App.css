@@ -1,0 +1,29 @@
+:root{
+    /* color */
+    --color-dark:#27292a;
+    --color-light:#fff;
+    --color-primary:#ec6090;
+    --color-darkest:#1f2122;
+    --color-bg-body:var(--color-darkest);
+    /* distanc */
+    --distanc-primary:50px;
+    --padding-primary:var(--distanc-primary);
+    --margin-primary:var(--distanc-primary);
+    --border-radius-primary:calc(var(--distanc-primary) / 2);
+    /* font */
+    --font-family-primary:'Poppins', sans-serif;
+    --font-weight-bold:900;
+    --font-weight-normal: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
+
+body{
+    background-color: var(--color-bg-body);
+    font-family: var(--font-family-primary);
+}
+ul{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+}
